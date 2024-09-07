@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pritam Morey Signup Page</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About">About</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-section">
+            <h1>Login</h1>
+            <form id="login-form" method="post" action="#">
+                <fieldset>
+                    <legend>Login Credentials</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                    <br><br>
+                    <input type="submit" value="Login">
+                </fieldset>
+            </form>
+            <p>Don't have an account? <a href="#signup" title="Sign up">Sign up</a></p>
+        </section>
+        <section class="signup-section" id="signup">
+            <h1>Sign up</h1>
+            <form id="signup-form" method="post" action="#">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    <br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Account Details</legend>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                    <br><br>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+                    <br><br>
+                    <input type="submit" value="Sign up">
+                </fieldset>
+            </form>
+            <p>Already have an account? <a href="#login" title="Login">Login</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pritam Morey</p>
+        <p>PRN: 22070521134</p>
+        <ul>
+            <li><a href="https://github.com/pcmorey" title="Github">Github</a></li>
+            <li><a href="www.linkedin.com/in/moreypritam" title="LinkedIn">LinkedIn</a></li>
+        </ul>
+        <address>
+            Contact me at: <a href="mailto:@sitnagpur.siu.edu.in" title="Email Pritam Morey">pritam.morey.btech2022@sitnagpur.siu.edu.in</a>
+        </address>
+    </footer>
+</body>
+</html>
